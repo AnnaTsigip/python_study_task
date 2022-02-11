@@ -2,8 +2,14 @@
 # y = x - 1, x>=0
 # y= |x|, x < 0
 
-x = int(input('Введите x: '))
-if x >=0:
-    print(x - 1)
-else:
-    print(x**2)
+
+
+
+# a = int(input("Введите 'a': "))
+#     if a > 0:
+#     y = 2*a - 10
+# elif a==0:
+#     y = 0
+# else:
+#     y = 2*abs(a) - 1
+# print(y)
