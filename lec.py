@@ -11,6 +11,27 @@
 # value = 123456
 # print(value)
 
+# если 2 раза указать одну и туже переменнню, то присвоится второе значение
+# number = 3
+# number = 4
+# print(number) # присвоится 4
+
+# при такой записи разным переменным присваивается одно значение:
+# num1 = num2 = 5
+# print(num1, num2)
+
+# множественное присвоение:
+# num_1, num_2 = 5, 7
+# print(num_1, num_2)
+
+#можем менять значение в переменных(обмен):
+swap1 = 8
+swap2 = 9
+swap1, swap2 = swap2, swap1
+
+
+
+
 # как посмотреть тип переменной
 # value = None
 # print(type(value))
@@ -306,14 +327,14 @@
     # optional return
 
 
-def f(x):
-    if x == 1:
-        return 'Целое'
-    elif x == 2.3:
-        return 23
-    else:
-        return
+# def f(x):
+#     if x == 1:
+#         return 'Целое'
+#     elif x == 2.3:
+#         return 23
+#     else:
+#         return
 
-arg = 2
-print(f(arg))
-print(type(f(arg)))
+# arg = 2
+# print(f(arg))
+# print(type(f(arg)))
