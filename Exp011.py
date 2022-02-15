@@ -9,3 +9,15 @@ for i in range(n):
     else:
         list.append(3**i * -1)
 print(list)
+
+
+
+# def create_list(n):
+#     lst = []
+#     spam = 1
+#     for i in range(n):
+#         lst.append(spam)
+#         spam = spam *-3
+#         return lst
+
+# print(create_list(5))
