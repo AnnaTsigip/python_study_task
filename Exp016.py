@@ -2,13 +2,15 @@
 
 
 list = []
-n = 5
-count = 0
-for i in range(1, n):
-    list.append((1 + (1/i))**i)
-    count += list[i-1]
+num = 1
+sum = 0
+N = int(input('Введите N: '))
+for i in range(1, N+1):
+    num = ((1 + (1/i))**i)
+    sum += num
+    list.append(num)
 
 print(list)
-print(count)
+print(sum)
 
 
