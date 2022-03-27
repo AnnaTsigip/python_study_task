@@ -1,7 +1,6 @@
-#Вывести на экран числа от -N до N
+#3. Вывести на экран числа от -N до N
 
-print('введите N')
-N = int(input())
+N = int(input('введите N: '))
 count = int(-N)
 
 while (count < N+1):
