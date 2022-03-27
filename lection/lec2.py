@@ -39,9 +39,33 @@ from re import T
      # ....
      # body line n
      # opyional return
-     
 
-# можно использовать функции из дрцгих файлов: 
+'''
+ ПРИМЕРЫ КОНЕЧНЫХ ФУНКЦИЙ:
+
+ def sum(x):
+    return x + 10 
+
+def sum1(x):
+    return x + 22
+ 
+def sum3(x):
+    return x + 242
+ 
+def mult(x):
+     return x**2
+
+def mult2(x):
+     return x**3
+
+def mult3(x):
+     return x**5
+
+'''
+
+
+
+# можно использовать функции из других файлов: 
 
 # import lec 
 # print(lec.f(1)) 
@@ -50,7 +74,7 @@ from re import T
 # print(l.f(1))
 
 
-# ЗНАЧЕНИЯ ПО УМОЛЧАНИЮ ЖДЯ ФУНКЦИЙ
+# ЗНАЧЕНИЯ ПО УМОЛЧАНИЮ ДДЯ ФУНКЦИЙ
 
 #def new_string(symbol, count):
 # def new_string(symbol, count = 3): # ставим второй аргумент по умолчанию

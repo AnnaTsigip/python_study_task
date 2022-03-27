@@ -21,4 +21,3 @@ else:
     x2 = int((-b - math.sqrt(D))/2 * a)
     print(x1,x2)
 
-

@@ -15,3 +15,8 @@ def get_unique_numbers(numbers):
     return list_of_unique_numbers
 
 print(get_unique_numbers(numbers))
+
+# ИЛИ
+numbers = [1, 2, 3, 5, 1, 5, 3, 10]
+res = list(set(numbers))
+print(res)
