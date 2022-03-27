@@ -1,15 +1,10 @@
-# Найти максимальное из пяти чисел
+# 2.Найти максимальное из пяти чисел
 
-print('Введите a')
-a = int(input())
-print('Введите b')
-b = int(input())
-print('Введите c')
-c = int(input())
-print('Введите d')
-d = int(input())
-print('Введите e')
-e = int(input())
+a = int(input('Введите a: '))
+b = int(input('Введите b: '))
+c = int(input('Введите c: '))
+d = int(input('Введите d: '))
+e = int(input('Введите e: '))
 max = a
 if b > max:
     max =b
