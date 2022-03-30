@@ -5,5 +5,13 @@
 # str.count(sub, start = 0,end = len(string))
 
 text = 'Лучше знать немного истинно хорошего и нужного, чем очень много посредственного и ненужного'
-sub = 'о'
-print ("text.count('о') : ", text.count(sub))
+count = 0
+for i in text:
+    if i == 'о':
+        count = count + 1
+print(count)
+
+
+# используя метод .count()
+# sub = 'о'
+# print ("text.count('о') : ", text.count(sub))
