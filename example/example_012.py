@@ -2,8 +2,8 @@
 # состоящий из элементов последовательности 3n + 1
 
 slovar = {}
-num = 1
-N = int(input('Введите N: '))
-for i in range(1, N+1):
-    slovar[i] = 3*i +1
+n = int(input('n = '))
+for i in range(1,n+1):
+    slovar[i] = 3*i+1
 print(slovar)
+
