@@ -21,4 +21,13 @@ def sum_num(num):
 print(sum_num(num1) + sum_num(num2))
 #print(sum_num(num2))
 
+###########  2
+
+num = input("Введите число: ")
+sum = 0
+for i in range(0, len(num)):
+    if num[i] != ".":
+        sum += int(num[i])
+print(sum)
+
 
