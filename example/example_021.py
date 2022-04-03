@@ -8,21 +8,25 @@
 
 #find(str[, start [, end]): происходит возвращение индекса подстроки в строку в Python.
 #В том случае, если подстрока не найдена, выполняется возвращение числа -1;
-
+'''
+поиск вхождения:
 
 # line = 'qwe, asd, zxc, qwe, ertqwe'
 # element = input('Введите element: ')
 # index = line.find(element)
 # print(index)
 
+'''
+
 # 2 входа: 
 
-line = 'qwe, asd, zxc, qwe, ertqwe'
-element = input('Введите element: ')
-if line.count(element) == 1:
-    print(f'{element} в строке встречается 1 раз')
-elif line.count(element) < 1:
-    print(f'{element} в строке НЕ встречается')
-else:
-    print(line.find(element, line.find(element) + 1))
+# line = 'qwe, asd, zxc, qwe, ertqwe'
+# element = input('Введите element: ')
+# if line.count(element) == 1:
+#     print(f'{element} в строке встречается 1 раз')
+# elif line.count(element) < 1:
+#     print(f'{element} в строке НЕ встречается')
+# else:
+#     print(line.find(element, line.find(element)+1))
+
 
