@@ -6,9 +6,6 @@
 #  w открытие для записи данных
 #  w+ r+ 
 
-from io import TextIOWrapper
-from re import T
-
 
 # colors = ['red', 'green', 'blue']
 # data = open('file.txt', 'a') # текстовая переменная data, связываем с текстовым файлом

@@ -1,22 +1,16 @@
-# Задать список из N элементов, заполненных числами из [-N, N]. 
+# 17. Задать список из N элементов, заполненных числами из [-N, N]. 
+'''
+НЕ ПОНИМАЮ УСЛОВИЕ!!!!
+
 # Найти произведение элементов на указанных позициях. Позиции хранятся в файле file.txt   в одной строке одно число
+'''
+
+
 list = []
-N = int(input('Введите N: '))
+N = int(input('N = '))
 for i in range(-N, N+1):
-    list.append(i)
-#print(list)
+    list.append(i) # заполнили список
 
-multi = 1
-for i in range(-N, N):
-     if i!=0:
-         multi = multi * i
-print(f'Произведение чисел = {multi}')
-
-f1 = ""
-for i in list:
-    f1 += str(i)+ " " 
-
-new_file = open('file_Exp017.txt', 'a')
-new_file.write(f1)
-new_file.close()
-
+r = open('text_17.txt', 'w')
+r.write(list) # записали список в файл 
+r.close 

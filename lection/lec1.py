@@ -308,7 +308,7 @@ Magnificat in secula
 # f = 1 > 2 or 4 < 6
 # print(f)
 
-#  in
+
 
 #f = [1, 2, 3, 4]
 # print(f)
@@ -320,6 +320,9 @@ Magnificat in secula
 # is_odd = f[0] % 2 == 0 # 0 - ложь, 1 - истина
 # is_odd = not f[0] % 2 # более правильный вариант записи
 # print(is_odd)
+
+"""
+управляющие конструкции:
 
 #if, if-else
 
@@ -343,9 +346,12 @@ Magnificat in secula
 #     print('Ильнар - ТОП')
 # else:
 #     print('Привет, ', username)
+"""
 
+############################################ циклы:
 
 #while
+
 # original = 23
 # inverted = 0
 # while original != 0:
@@ -355,6 +361,7 @@ Magnificat in secula
 
 
 # while - else
+
 # original = 23
 # inverted = 0
 # while original != 0:
@@ -366,16 +373,21 @@ Magnificat in secula
 # print(inverted)
 
 
+#########################################################################################################333
+
 # for
 
 # for i in 1,2,3,4,5:
 #     print(i**2)
 
+
 # list = [1,2,3,4,5]
 # for i in list:
 #     print(i**2)
 
+
 #range: перечисление от 0 до 9
+
 # r = range(10)
 # for i in r:
 #     print(i)
@@ -394,6 +406,7 @@ Magnificat in secula
 # for i in 'qwe - rty':
 #     print(i)
 
+"""
 
 #СТРОКИ
 
@@ -411,6 +424,9 @@ Magnificat in secula
 # Справка по функции: 
 # help(text.istitle)
 
+
+срезы: 
+
 # text = 'съешь еще этих мягких француцских булок'
 # print(text[0]) # с
 # print(text[1]) # ъ
@@ -424,6 +440,8 @@ Magnificat in secula
 # print(text[0:len(text):6]) # сеикакл
 # print(text[::6]) # сеикакл
 # text = text[2:9] + text[-5] + text[:2] #
+
+"""
 
 
 # списки: введение

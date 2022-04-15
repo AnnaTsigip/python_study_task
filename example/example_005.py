@@ -13,3 +13,11 @@ if num % 15 == 0 and not num % 30 == 0:
     print(True) #  print(f'{num} кратно 15 не кратно 30') 
 else:
     print(False) 
+
+
+все в одном:
+
+# n = int(input('Enter: '))
+n = 60
+
+print(bool(((n % 5 == 0 and n % 10 == 0) or n % 15 == 0) and n % 30 != 0))
